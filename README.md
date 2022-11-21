@@ -1,4 +1,4 @@
-# [https://tobiasvonmassow.de](https://tobiasvonmassow.de)
+# [tobiasvonmassow.de](https://tobiasvonmassow.de)
 
 My personal Website.
 
