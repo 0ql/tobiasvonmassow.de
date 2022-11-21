@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+	--prim-color: #a78bfa;
+	--bg-color: #18181b;
+	--bg-scnd-color: #242429;
+	--text-color: #d4d4d8;
+	--text-scnd-color: #52525b;
+	--highlight-color: #4183c4;
+}
+
+body { 
+	font-family: "Poppins", sans-serif;
+	background-color: var(--bg-color);
+	color: var(--text-color);
+	margin: 0;
+}
+
+pre {
+	padding: 1rem;
+	border-radius: 0.75rem;
+}
+
+article {
+	display: grid;
+	gap: 1rem;
+}
+
+h1 {
+	font-size: 3rem;
+	font-weight: bold;
+	line-height: 4rem;
+}
+
+h2 {
+	font-size: 2.25rem;
+	font-weight: bold;
+	line-height: 4.5rem;
+}
+
+h3 {
+	font-size: 1.50rem;
+	font-weight: bold;
+	line-height: 3rem;
+}
+
+button {
+	background: transparent;
+	border: none;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+select {
+	background: transparent;
+	text-align: center;
+}
+
+@keyframes floatingtext {
+	0%,
+	100% {
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(-10px);
+	}
+}
+
+.anim {
+	animation: floatingtext 3s infinite;
+}
+
+.btn,
+summary,
+select {
+	cursor: pointer;
+	border: 2px solid;
+	border-color: var(--text-scnd-color);
+	border-radius: 0.75rem;
+	text-decoration: none;
+	color: currentColor;
+}
+
+summary {
+	padding: 1rem 1.5rem;
+}
+
+.btn:hover,
+summary:hover,
+select:hover {
+	box-shadow: 0.25rem 0.25rem var(--text-scnd-color);
+	transform: translate(-0.25rem, -0.25rem);
+	transition: all 0.05s linear 0s;
+	text-decoration: none;
+	color: currentColor;
+}
+
+.btn:active,
+summary:active,
+select:active {
+	box-shadow: 0rem 0rem var(--text-scnd-color);
+	transform: translate(0rem, 0rem);
+	transition: all 0.05s linear 0s;
+	text-decoration: none;
+	color: currentColor;
+}
+
+a {
+	color: #4183c4;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p {
+	text-align: justify;
+}
+
+code:not(pre code) {
+	background-color: #282A36;
+	padding: 0.2rem 0.7rem;
+	border-radius: 0.75rem;
+	line-height: 2rem;
+	margin: 0 0.2rem;
+}

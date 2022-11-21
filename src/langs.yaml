@@ -1,0 +1,48 @@
+---
+de:
+  overview: Überblick
+  slug:
+    na: Diese seite existiert nicht
+  selfdesc: Programmierer und Designer von Webseiten, KI und vieles mehr!
+  portfolio:
+  - icon: i-mdi-typewriter
+    title: CoffeeTyper.com
+    href: https://coffeetyper.com
+    desc: Teste wie schnell du tippen kannst auf einer Webseite, die du nach belieben
+      anpassen kannst.
+  - icon: i-mdi-car-convertible
+    title: AI Hill Climb Racing
+    href: https://0ql.github.io/AI-Hill-Climb-Racing/
+    desc: Eine KI lernt das Spiel 'Hill Climb Racing' zu spielen.
+  - icon: i-mdi-brain
+    title: Pathfinder
+    href: https://0ql.github.io/Pathfinder/
+    desc: KI versucht sich den Weg zwischen zwei Linien zu bahnen.
+  - icon: i-mdi-reddit
+    title: Reddit Clone
+    href: https://github.com/0ql/redditclone
+    desc: Ein clon von reddit.com.
+  more: Sieh dir mehr an...
+en:
+  overview: Overview
+  slug:
+    na: This site doesn't exist
+  selfdesc: Programmer and designer of websites, AI and much more!
+  portfolio:
+  - icon: i-mdi-typewriter
+    title: CoffeeTyper.com
+    href: https://coffeetyper.com
+    desc: Test how fast you can type on an extremely customizable Website.
+  - icon: i-mdi-car-convertible
+    title: AI Hill Climb Racing
+    href: https://0ql.github.io/AI-Hill-Climb-Racing/
+    desc: Ai learns to play a clone of the Game 'Hill Climb Racing'.
+  - icon: i-mdi-brain
+    title: Pathfinder
+    href: https://0ql.github.io/Pathfinder/
+    desc: Agents learning to pathfind using nural evolution.
+  - icon: i-mdi-reddit
+    title: Reddit Clone
+    href: https://github.com/0ql/redditclone
+    desc: A clone of reddit.com.
+  more: Show me more...

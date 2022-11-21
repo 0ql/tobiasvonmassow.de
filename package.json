@@ -1,0 +1,26 @@
+{
+	"name": "tobiasvonmassow.de",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"@astrojs/mdx": "^0.11.6",
+		"@astrojs/sitemap": "^1.0.0",
+		"@astrojs/svelte": "^1.0.2",
+		"astro": "^1.6.10",
+		"svelte": "^3.53.1"
+	},
+	"devDependencies": {
+		"@iconify/json": "^2.1.141",
+		"@modyfi/vite-plugin-yaml": "^1.0.3",
+		"@unocss/astro": "^0.45.30",
+		"@unocss/preset-icons": "^0.45.30",
+		"@unocss/preset-uno": "^0.45.30",
+		"nanostores": "^0.7.1",
+		"unocss-preset-scrollbar": "^0.2.1"
+	}
+}

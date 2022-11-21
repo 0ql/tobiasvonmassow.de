@@ -1,0 +1,14 @@
+---
+const posts = await Astro.glob("../pages/Posts/*.{md, mdx}");
+---
+
+<section class="grid grid-cols-2 gap-6">
+	{
+		posts.map((post) => (
+			<a href={post.url} class="btn p-6">
+				<h3 class="font-regular">{post.frontmatter.title}</h3>
+				<p>{post.frontmatter.description}</p>
+			</a>
+		))
+	}
+</section>
