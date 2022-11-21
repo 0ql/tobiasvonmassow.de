@@ -9,6 +9,11 @@
 	--highlight-color: #4183c4;
 }
 
+*::selection {
+	color: white;
+	background: var(--highlight-color);
+}
+
 body { 
 	font-family: "Poppins", sans-serif;
 	background-color: var(--bg-color);
@@ -106,7 +111,7 @@ select:active {
 }
 
 a {
-	color: #4183c4;
+	color: var(--highlight-color);
 }
 
 a:hover {
