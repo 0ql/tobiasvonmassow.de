@@ -1,11 +1,7 @@
 ---
 layout: "../../layouts/BlogPost.astro"
-title: "Useful URLs"
-description: "Useful URLs"
-pubDate: "2022"
+title: "A growing list of useful URLs"
 ---
-
-# A growing list of useful URLs
 
 ## Legal
 - [Global Regulation](https://www.global-regulation.com/)

@@ -1,3 +1,8 @@
+---
+layout: "../../../layouts/BlogPost.astro"
+title: "How to Remove Xorg"
+---
+
 Remove Xorg
 
 ```bash

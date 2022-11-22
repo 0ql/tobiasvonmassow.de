@@ -1,4 +1,7 @@
-# Delete and / or Replace lines containing a pattern
+---
+layout: "../../../layouts/BlogPost.astro"
+title: "Delete and / or Replace lines containing a pattern"
+---
 
 Replace line with `<pattern>`
 ```vim

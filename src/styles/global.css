@@ -124,8 +124,13 @@ p {
 
 code:not(pre code) {
 	background-color: #282A36;
+	color: #d4d4d8;
 	padding: 0.2rem 0.7rem;
 	border-radius: 0.75rem;
 	line-height: 2rem;
 	margin: 0 0.2rem;
+}
+
+li, ul {
+	list-style-type: disc;
 }
