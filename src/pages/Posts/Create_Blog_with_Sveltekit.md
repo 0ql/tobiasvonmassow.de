@@ -5,6 +5,9 @@ description: "How to create a static blog with SvelteKit, Mdsvex, PrismJS and Un
 pubDate: "17 Jun 2022"
 updatedDate: "7 Jul 2022"
 ---
+
+# This is Outdated information 
+
 ### Set up the project
 
 Create Directory and init

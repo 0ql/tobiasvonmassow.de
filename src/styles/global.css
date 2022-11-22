@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-:root {
+:root.dark_classic {
 	--prim-color: #a78bfa;
 	--bg-color: #18181b;
 	--bg-scnd-color: #242429;
 	--text-color: #d4d4d8;
+	--text-scnd-color: #52525b;
+	--highlight-color: #4183c4;
+}
+
+:root.light_classic {
+	--prim-color: #a78bfa;
+	--bg-color: #e4e4e7;
+	--bg-scnd-color: #d2d2d9;
+	--text-color: #18181b;
 	--text-scnd-color: #52525b;
 	--highlight-color: #4183c4;
 }
