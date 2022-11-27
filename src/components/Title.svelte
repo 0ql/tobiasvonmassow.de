@@ -15,14 +15,23 @@
 </script>
 
 <header class="w-full py-[15vh]">
-	<h1 class="anim">Tobias von Massow</h1>
-	<span class="mt-5 text-lg">
+	<h1 class="font-bold text-5xl mb-8">Tobias von Massow</h1>
+	<span class="text-lg">
 		{selfdesc}
 		<span class="inline blink -ml-1">_</span>
 	</span>
 </header>
 
 <style>
+	@keyframes floatingtext {
+		0%,
+		100% {
+			transform: translateY(0px);
+		}
+		50% {
+			transform: translateY(-10px);
+		}
+	}
 	@keyframes blink {
 		0%,
 		100% {
@@ -34,5 +43,8 @@
 	}
 	.blink {
 		animation: blink 400ms infinite;
+	}
+	h1 {
+		animation: floatingtext 4s infinite;
 	}
 </style>

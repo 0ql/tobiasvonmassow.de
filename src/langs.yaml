@@ -22,6 +22,10 @@ de:
     title: Reddit Clone
     href: https://github.com/0ql/redditclone
     desc: Ein clon von reddit.com.
+  - icon: i-mdi-home
+    title: Meine Webseite
+    href: https://tobiasvonmassow.de
+    desc: Meine persönliche Webseite :)
   more: Sieh dir mehr an...
 en:
   overview: Overview
@@ -45,4 +49,8 @@ en:
     title: Reddit Clone
     href: https://github.com/0ql/redditclone
     desc: A clone of reddit.com.
+  - icon: i-mdi-home
+    title: My Website
+    href: https://tobiasvonmassow.de
+    desc: My personal Homepage :)
   more: Show me more...

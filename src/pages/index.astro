@@ -12,13 +12,13 @@ import "../styles/global.css";
 	</head>
 	<body>
 		<div
-			class="fixed w-screen h-90vh overflow-y-scroll scrollbar scrollbar-rounded scrollbar-thumb-color-current scrollbar-track-color-transparent"
+			class="fixed w-screen h-90vh overflow-y-scroll md:scrollbar scrollbar-rounded scrollbar-thumb-color-current scrollbar-track-color-transparent"
 		>
-			<main class="block max-w-4xl mx-auto px-3">
+			<main class="block max-w-4xl mx-auto px-3 my-10">
 				<Title client:load />
-				<h2>Portfolio</h2>
+				<h2 class="font-bold text-4xl my-3">Portfolio</h2>
 				<Portfolio client:load />
-				<h2>Posts</h2>
+				<h2 class="font-bold text-4xl mb-3 mt-6">Posts</h2>
 				<ListPosts />
 			</main>
 		</div>

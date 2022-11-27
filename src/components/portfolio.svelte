@@ -4,7 +4,7 @@
 </script>
 
 <div
-	class="hidden i-mdi-typewriter i-mdi-car-convertible i-mdi-brain i-mdi-reddit"
+	class="hidden i-mdi-typewriter i-mdi-car-convertible i-mdi-brain i-mdi-reddit i-mdi-home"
 />
 <section class="grid gap-6">
 	{#each $lang.portfolio as entry}
