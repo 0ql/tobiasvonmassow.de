@@ -91,6 +91,7 @@ title: "A growing list of useful URLs"
 - [ColorDrop](https://colordrop.io/)
 - [Culrs](https://www.culrs.com/)
 - [Brandcolors](http://brandcolors.net/)
+- [Branding Colors](https://branition.com/colors)
 - [Materialpalettes](https://materialpalettes.com/)
 
 #### Palette Generators
