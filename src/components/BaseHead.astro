@@ -35,7 +35,10 @@ const { title, description, image = "/placeholder-social.jpg" } = Astro.props;
 
 <!-- Global Metadata -->
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta
+	name="viewport"
+	content="width=device-width,height=device-height,initial-scale=1"
+/>
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <!-- <meta name="generator" content={Astro.generator} /> -->
 
@@ -59,9 +62,9 @@ const { title, description, image = "/placeholder-social.jpg" } = Astro.props;
 <!-- <meta property="twitter:image" content={new URL(image, Astro.url)} /> -->
 
 <script>
-import { state } from "../config"
-const theme = window.localStorage.getItem("theme")
-if (theme) state.setKey("theme", theme)
+	import { state } from "../config";
+	const theme = window.localStorage.getItem("theme");
+	if (theme) state.setKey("theme", theme);
 </script>
 <Navbar client:load />
 <SideBar {dir} client:load />

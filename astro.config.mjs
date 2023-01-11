@@ -24,7 +24,7 @@ export default defineConfig({
 			theme: 'dracula',
 			// https://github.com/shikijs/shiki/blob/main/docs/languages.md
 			langs: [],
-			wrap: true,
+			wrap: false,
 		},
 	},
 	vite: {

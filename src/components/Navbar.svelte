@@ -14,10 +14,10 @@
 				state.setKey("hamburgertoggle", !state.get().hamburgertoggle)}
 			class="text-current"
 			><div
-				class="text-4xl i-mdi-hamburger cursor-pointer text-current hover:transition-duration-0.3s hover:color-[var(--primary)]
+				class="text-4xl i-mdi-hamburger cursor-pointer
         {$state.hamburgertoggle
-					? 'transition transition-duration-0.5s rotate-90'
-					: 'transition transition-duration-0.5s rotate-0'}"
+					? 'transition-duration-0.5s rotate-90'
+					: 'transition-duration-0.5s rotate-0'}"
 			/></a
 		>
 	</div>

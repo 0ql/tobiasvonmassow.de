@@ -20,3 +20,4 @@ pnpm-debug.log*
 
 # pnpm-lock.yaml as it is useless for production anyways
 pnpm-lock.yaml
+package-lock.json
