@@ -8,6 +8,7 @@ import fs from "fs";
 // all pages through the use of the <BaseHead /> component.
 import "../styles/global.css";
 
+const mustNotMatch = /\[.*\]/;
 const addToPath = (path: string, name: string): Dir => {
 	const dirfs: Dir = {
 		name,
@@ -17,6 +18,7 @@ const addToPath = (path: string, name: string): Dir => {
 	};
 	path = path + name;
 	fs.readdirSync(path, { withFileTypes: true }).forEach((d) => {
+		if (mustNotMatch.test(d.name) || d.name === "gesetze") return;
 		if (d.isDirectory()) dirfs.subdirs.push(addToPath(path + "/", d.name));
 		else dirfs.files.push(d.name);
 	});

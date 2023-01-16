@@ -1,0 +1,25 @@
+---
+import Laws from "src/layouts/Laws.astro";
+import fs from "fs";
+import path from "path";
+
+const htmls = fs.readdirSync(path.resolve("gesetzeiminternet/htmls"));
+---
+
+<Laws title="Gesetze">
+	<h1>Gesetze</h1>
+	<a href="https://www.gesetze-im-internet.de/aappo"
+		>gesetze-im-internet.de/aappo</a
+	>
+	&gt;
+	<a href="https://tobiasvonmassow.de/gesetze/aappo"
+		>tobiasvonmassow.de/gesetze/aappo</a
+	>
+	{
+		htmls.map((el: string) => (
+			<a class="btn block my-5 p-3" href={"gesetze/" + el.replace(".html", "")}>
+				{el.replace(".html", "")}
+			</a>
+		))
+	}
+</Laws>

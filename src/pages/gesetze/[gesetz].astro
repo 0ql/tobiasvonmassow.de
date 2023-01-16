@@ -1,0 +1,32 @@
+---
+import Laws from "layouts/Laws.astro";
+import fs from "fs";
+import path from "path";
+
+export const getStaticPaths = () => {
+	const htmls = fs.readdirSync(path.resolve("gesetzeiminternet/htmls"));
+	const routes: any[] = [];
+
+	htmls.forEach((file) => {
+		let content = fs
+			.readFileSync(path.resolve("gesetzeiminternet/htmls") + `/${file}`)
+			.toString();
+
+		routes.push({
+			params: {
+				gesetz: file.replace(".html", ""),
+			},
+			props: {
+				content,
+			},
+		});
+	});
+
+	return routes;
+};
+
+const { title } = Astro.params;
+const props = Astro.props;
+---
+
+<Laws {title} set:html={props.content} />

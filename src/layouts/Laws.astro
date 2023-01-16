@@ -1,0 +1,40 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+const { title } = Astro.props;
+---
+
+<html lang="en" class="dark_classic">
+	<head>
+		<BaseHead title={title} description="" />
+	</head>
+
+	<body>
+		<div
+			class="fixed w-screen h-90vh overflow-y-scroll md:scrollbar scrollbar-rounded scrollbar-thumb-color-current scrollbar-track-color-transparent"
+		>
+			<main class="block max-w-4xl mx-auto px-3 mt-10 mb-20 md:mb-10">
+				<slot />
+			</main>
+		</div>
+		<style is:global>
+			main {
+				text-align: justify;
+				/* overflow-wrap: break-word; */
+				word-break: break-all;
+			}
+			h1 {
+				font-size: 2rem;
+				font-weight: bold;
+			}
+			dl {
+				margin: 1rem;
+			}
+			.jnhtml {
+				margin-top: 2rem;
+			}
+			.jurAbsatz {
+				margin-top: 1rem;
+			}
+		</style>
+	</body>
+</html>
