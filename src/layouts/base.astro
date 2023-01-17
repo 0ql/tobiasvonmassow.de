@@ -29,17 +29,20 @@ const { title } = Astro.props;
 
 <html lang="en" class="dark_classic">
 	<head>
-		<BaseHead title={title ?? "Tobias von Massow"} description="My personal Website :)" />
+		<BaseHead
+			title={title ?? "Tobias von Massow"}
+			description="My personal Website :)"
+		/>
 	</head>
 	<body>
 		<Navbar client:load />
 		<SideBar {dir} client:load />
 		<div
-			class="pt-10vh fixed w-screen h-screen overflow-y-scroll md:scrollbar scrollbar-rounded scrollbar-thumb-color-current scrollbar-track-color-transparent "
+			class="pt-10vh fixed w-screen h-screen overflow-y-scroll md:scrollbar scrollbar-rounded scrollbar-thumb-color-current scrollbar-track-color-transparent"
 			style="background: linear-gradient(var(--bg-scnd-color), var(--bg-color));"
 		>
 			<main class="block max-w-4xl mx-auto px-3 mt-10 mb-20 md:mb-10">
-				<slot/>
+				<slot />
 			</main>
 		</div>
 	</body>
