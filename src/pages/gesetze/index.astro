@@ -17,7 +17,7 @@ const htmls = fs.readdirSync(path.resolve("gesetzeiminternet/htmls"));
 	>
 	{
 		htmls.map((el: string) => (
-			<a class="btn block my-5 p-3" href={"gesetze/" + el.replace(".html", "")}>
+			<a class="btn block my-5 p-3" href={"/gesetze/" + el.replace(".html", "")}>
 				{el.replace(".html", "")}
 			</a>
 		))

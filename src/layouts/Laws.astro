@@ -1,40 +1,67 @@
 ---
-import BaseHead from "../components/BaseHead.astro";
+import Base from "./base.astro";
 const { title } = Astro.props;
 ---
 
-<html lang="en" class="dark_classic">
-	<head>
-		<BaseHead title={title} description="" />
-	</head>
-
-	<body>
-		<div
-			class="fixed w-screen h-90vh overflow-y-scroll md:scrollbar scrollbar-rounded scrollbar-thumb-color-current scrollbar-track-color-transparent"
-		>
-			<main class="block max-w-4xl mx-auto px-3 mt-10 mb-20 md:mb-10">
-				<slot />
-			</main>
-		</div>
-		<style is:global>
-			main {
-				text-align: justify;
-				/* overflow-wrap: break-word; */
-				word-break: break-all;
-			}
-			h1 {
-				font-size: 2rem;
-				font-weight: bold;
-			}
-			dl {
-				margin: 1rem;
-			}
-			.jnhtml {
-				margin-top: 2rem;
-			}
-			.jurAbsatz {
-				margin-top: 1rem;
-			}
-		</style>
-	</body>
-</html>
+<Base {title}>
+	<slot />
+	<style is:global>
+		main {
+			text-align: justify;
+			font-family: monospace;
+		}
+		.jnnorm pre {
+			background-color: var(--bg-scnd-color);
+		}
+		.jnheader p {
+			margin: 0.75rem 0;
+		}
+		.jnnorm h1 {
+			font-size: 2rem;
+			font-weight: bold;
+		}
+		.jnnorm h2 {
+			margin-top: 4rem;
+			font-size: 1.5rem;
+			border-bottom: 1px solid var(--text-scnd-color);
+		}
+		.jnnorm h3 {
+			/* color: var(--text-scnd-color); */
+			font-size: 1.25rem;
+			text-align: center;
+			padding: 0.25rem 0;
+			/* border-bottom: 1px solid; */
+		}
+		.jnnorm dl {
+			margin: 1rem 2rem;
+		}
+		.jnnorm dd {
+			margin: 0.5rem 1rem;
+		}
+		.jnkurzueamtabk {
+			color: var(--text-scnd-color);
+			font-size: 1.5rem;
+		}
+		.jnzitat {
+			font-style: italic;
+			background-color: var(--bg-scnd-color);
+			border-radius: 0.75rem;
+			padding: 1rem;
+			margin: 0.75rem 0;
+		}
+		.jnnorm {
+			margin-top: 2rem;
+		}
+		.jnhtml {
+			margin-top: 1rem;
+		}
+		.jurAbsatz {
+			margin-top: 1rem;
+		}
+		.jnfussnote h4 {
+			margin-top: 2rem;
+			font-size: 1rem;
+			text-align: center;
+		}
+	</style>
+</Base>

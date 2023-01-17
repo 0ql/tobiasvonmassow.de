@@ -2,25 +2,14 @@
 import Title from "../components/Title.svelte";
 import Portfolio from "../components/portfolio.svelte";
 import ListPosts from "../components/ListPosts.astro";
-import BaseHead from "../components/BaseHead.astro";
 import "../styles/global.css";
+import Base from "src/layouts/base.astro";
 ---
 
-<html lang="en" class="dark_classic">
-	<head>
-		<BaseHead title="Tobias von Massow" description="My personal Website :)" />
-	</head>
-	<body>
-		<div
-			class="fixed w-screen h-90vh overflow-y-scroll md:scrollbar scrollbar-rounded scrollbar-thumb-color-current scrollbar-track-color-transparent"
-		>
-			<main class="block max-w-4xl mx-auto px-3 mt-10 mb-20 md:mb-10">
-				<Title client:load />
-				<h2 class="font-bold text-4xl my-3">Portfolio</h2>
-				<Portfolio client:load />
-				<h2 class="font-bold text-4xl mb-3 mt-6">Posts</h2>
-				<ListPosts />
-			</main>
-		</div>
-	</body>
-</html>
+<Base>
+	<Title client:load />
+	<h2 class="font-bold text-4xl my-3">Portfolio</h2>
+	<Portfolio client:load />
+	<h2 class="font-bold text-4xl mb-3 mt-6">Posts</h2>
+	<ListPosts />
+</Base>

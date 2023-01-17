@@ -4,7 +4,8 @@
 </script>
 
 <nav
-	class="box-border relative w-full h-10vh p-8 border-b-2 border-[var(--text-scnd-color)] bg-[var(--bg-color)] z-10 flex justify-between items-center"
+	class="box-border fixed w-full h-10vh p-8 border-b-2 border-[var(--text-scnd-color)] z-10 flex justify-between items-center"
+	style="backdrop-filter: blur(32px);"
 >
 	<div>
 		<a

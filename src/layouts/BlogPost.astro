@@ -1,5 +1,5 @@
 ---
-import BaseHead from "../components/BaseHead.astro";
+import Base from "./base.astro";
 
 export interface Props {
 	content: {
@@ -16,30 +16,18 @@ const {
 } = Astro.props;
 ---
 
-<html lang="en" class="dark_classic">
-	<head>
-		<BaseHead title={title} description={description} />
-	</head>
-
-	<body>
-		<div
-			class="fixed w-screen h-90vh overflow-y-scroll md:scrollbar scrollbar-rounded scrollbar-thumb-color-current scrollbar-track-color-transparent"
-		>
-			<main class="block max-w-4xl mx-auto px-3 mt-10 mb-20 md:mb-10">
-				<article>
-					{heroImage && <img width={720} height={360} src={heroImage} alt="" />}
-					<h1>{title}</h1>
-					{pubDate && <time>{pubDate}</time>}
-					{
-						updatedDate && (
-							<div>
-								Last updated on <time>{updatedDate}</time>
-							</div>
-						)
-					}
-					<slot />
-				</article>
-			</main>
-		</div>
-	</body>
-</html>
+<Base>
+	<article>
+		{heroImage && <img width={720} height={360} src={heroImage} alt="" />}
+		<h1>{title}</h1>
+		{pubDate && <time>{pubDate}</time>}
+		{
+			updatedDate && (
+				<div>
+					Last updated on <time>{updatedDate}</time>
+				</div>
+			)
+		}
+		<slot />
+	</article>
+</Base>

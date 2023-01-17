@@ -1,0 +1,46 @@
+---
+import BaseHead from "components/BaseHead.astro";
+import "../styles/global.css";
+import Navbar from "components/Navbar.svelte";
+import SideBar from "components/SideBar.svelte";
+import type { Dir } from "../env";
+import fs from "fs";
+
+const mustNotMatch = /\[.*\]/;
+const addToPath = (path: string, name: string): Dir => {
+	const dirfs: Dir = {
+		name,
+		path: path.replace("./src/pages/", "/") + name + "/",
+		subdirs: [],
+		files: [],
+	};
+	path = path + name;
+	fs.readdirSync(path, { withFileTypes: true }).forEach((d) => {
+		if (mustNotMatch.test(d.name) || d.name === "gesetze") return;
+		if (d.isDirectory()) dirfs.subdirs.push(addToPath(path + "/", d.name));
+		else dirfs.files.push(d.name);
+	});
+	return dirfs;
+};
+const dir = addToPath("./src/", "pages");
+
+const { title } = Astro.props;
+---
+
+<html lang="en" class="dark_classic">
+	<head>
+		<BaseHead title={title ?? "Tobias von Massow"} description="My personal Website :)" />
+	</head>
+	<body>
+		<Navbar client:load />
+		<SideBar {dir} client:load />
+		<div
+			class="pt-10vh fixed w-screen h-screen overflow-y-scroll md:scrollbar scrollbar-rounded scrollbar-thumb-color-current scrollbar-track-color-transparent "
+			style="background: linear-gradient(var(--bg-scnd-color), var(--bg-color));"
+		>
+			<main class="block max-w-4xl mx-auto px-3 mt-10 mb-20 md:mb-10">
+				<slot/>
+			</main>
+		</div>
+	</body>
+</html>
