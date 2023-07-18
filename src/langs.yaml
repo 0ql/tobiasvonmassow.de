@@ -6,8 +6,8 @@ de:
   selfdesc: Programmierer und Designer von Webseiten, KI und vieles mehr!
   portfolio:
   - icon: i-mdi-typewriter
-    title: CoffeeTyper.com
-    href: https://coffeetyper.com
+    title: CoffeeTyper
+    href: https://coffeetyper.netlify.app
     desc: Teste wie schnell du tippen kannst auf einer Webseite, die du nach belieben
       anpassen kannst.
   - icon: i-mdi-car-convertible

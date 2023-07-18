@@ -9,18 +9,19 @@
 	},
 	"dependencies": {
 		"@astrojs/mdx": "^0.11.6",
-		"@astrojs/sitemap": "^1.0.0",
+		"@astrojs/sitemap": "^1.4.0",
 		"@astrojs/svelte": "^1.0.2",
 		"astro": "^1.9.2",
-		"svelte": "^3.55.1"
+		"svelte": "^3.59.2"
 	},
 	"devDependencies": {
-		"@iconify/json": "^2.2.7",
+		"@iconify/json": "^2.2.92",
 		"@modyfi/vite-plugin-yaml": "^1.0.4",
 		"@unocss/astro": "^0.45.30",
 		"@unocss/preset-icons": "^0.45.30",
 		"@unocss/preset-uno": "^0.45.30",
-		"nanostores": "^0.7.1",
+		"@unocss/reset": "^0.52.7",
+		"nanostores": "^0.7.4",
 		"unocss-preset-scrollbar": "^0.2.1"
 	}
 }
