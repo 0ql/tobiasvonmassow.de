@@ -38,10 +38,10 @@ const { title } = Astro.props;
 		<Navbar client:load />
 		<SideBar {dir} client:load />
 		<div
-			class="pt-10vh fixed w-screen h-screen overflow-y-scroll md:scrollbar scrollbar-rounded scrollbar-thumb-color-current scrollbar-track-color-transparent"
+			class="pt-10vh fixed w-screen h-screen overflow-y-scroll scrollbar scrollbar-rounded scrollbar-thumb-color-current scrollbar-track-color-transparent"
 			style="background: linear-gradient(var(--bg-scnd-color), var(--bg-color));"
 		>
-			<main class="block max-w-4xl mx-auto px-3 mt-10 mb-20 md:mb-10">
+			<main class="block max-w-4xl mx-auto px-3 mb-12vh">
 				<slot />
 			</main>
 		</div>

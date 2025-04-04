@@ -6,12 +6,8 @@ const { title } = Astro.props;
 <Base {title}>
 	<slot />
 	<style is:global>
-		main {
-			text-align: justify;
-			font-family: monospace;
-		}
 		.jnnorm pre {
-			background-color: var(--bg-scnd-color);
+			background-color: var(--bg-thrid-color);
 		}
 		.jnheader p {
 			margin: 0.75rem 0;
@@ -23,7 +19,8 @@ const { title } = Astro.props;
 		.jnnorm h2 {
 			margin-top: 4rem;
 			font-size: 1.5rem;
-			border-bottom: 1px solid var(--text-scnd-color);
+			border-bottom: 2px solid var(--text-scnd-color);
+			line-height: 1.8;
 		}
 		.jnnorm h3 {
 			/* color: var(--text-scnd-color); */
@@ -44,7 +41,7 @@ const { title } = Astro.props;
 		}
 		.jnzitat {
 			font-style: italic;
-			background-color: var(--bg-scnd-color);
+			background-color: var(--bg-thrid-color);
 			border-radius: 0.75rem;
 			padding: 1rem;
 			margin: 0.75rem 0;

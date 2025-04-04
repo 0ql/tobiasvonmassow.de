@@ -4,6 +4,7 @@
 	--prim-color: #a78bfa;
 	--bg-color: #18181b;
 	--bg-scnd-color: #242429;
+	--bg-thrid-color: #33333b;
 	--text-color: #d4d4d8;
 	--text-scnd-color: #52525b;
 	--highlight-color: #4183c4;
@@ -13,6 +14,7 @@
 	--prim-color: #a78bfa;
 	--bg-color: #e4e4e7;
 	--bg-scnd-color: #d2d2d9;
+	--bg-thrid-color: #bababf;
 	--text-color: #18181b;
 	--text-scnd-color: #52525b;
 	--highlight-color: #4183c4;
@@ -25,7 +27,6 @@
 
 a, button, h3 {
 	-webkit-tap-highlight-color: transparent;
-	user-select: none;
 }
 
 body { 

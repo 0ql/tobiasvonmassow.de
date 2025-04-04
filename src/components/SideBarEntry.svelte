@@ -5,13 +5,13 @@
 	let toggle = true;
 </script>
 
-<h3
-	class="btn p-2 md:p-3 mb-3 leading-normal"
+<button
+	class="btn p-2 md:p-3 mb-3 w-full text-left leading-normal text-[1rem]"
 	on:click={() => (toggle = !toggle)}
 >
 	{dir.name.replaceAll("_", " ")}
-</h3>
-<div class="border-l-2 border-[var(--text-scnd-color)] pl-3">
+</button>
+<div class="border-l-solid border-l-2 border-[var(--text-scnd-color)] pl-3">
 	{#if toggle}
 		{#each dir.subdirs as item}
 			<svelte:self dir={item} />
