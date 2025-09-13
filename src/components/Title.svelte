@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { lang } from "../config";
 	let selfdesc: string = "";
-	let interval: NodeJS.Timer;
+	let interval: NodeJS.Timeout;
 
 	lang.subscribe((l) => {
 		let i = 0;

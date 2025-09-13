@@ -5,7 +5,7 @@ import langs from "./langs.yaml"
 
 export const state = map<State>({
 	lang: "de",
-	theme: "dark-classic",
+	theme: "dark_classic",
 	hamburgertoggle: false,
 	globetoggle: false,
 	rendercards: false
@@ -13,13 +13,13 @@ export const state = map<State>({
 
 export const lang = map<LanguageFile>(langs[state.get().lang])
 
-state.subscribe((_, key) => {
-	if (key === "lang") lang.set(langs[state.get().lang])
-	else if (key === "theme") {
-		document.documentElement.classList.forEach(el => {
-			document.documentElement.classList.remove(el)
-		})
-		document.documentElement.classList.add(state.get().theme)
-		window.localStorage.setItem("theme", state.get().theme)
-	}
+state.subscribe((val) => {
+	lang.set(langs[val.lang])
+	// check if running in browser
+	if (typeof window === "undefined") return
+	document.documentElement.classList.forEach(el => {
+		document.documentElement.classList.remove(el)
+	})
+	document.documentElement.classList.add(val.theme)
+	window.localStorage.setItem("theme", val.theme)
 })

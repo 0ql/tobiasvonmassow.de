@@ -1,28 +1,28 @@
 {
 	"name": "tobiasvonmassow.de",
 	"scripts": {
-		"dev": "astro dev",
+		"dev": "astro dev --port 3000",
 		"start": "astro dev",
 		"build": "astro build",
 		"preview": "astro preview",
 		"astro": "astro"
 	},
 	"dependencies": {
-		"@astrojs/mdx": "^0.19.7",
-		"@astrojs/sitemap": "^2.0.2",
-		"@astrojs/svelte": "^3.1.1",
-		"astro": "^2.10.15",
-		"svelte": "^4.2.19"
+		"@astrojs/mdx": "^4.3.5",
+		"@astrojs/sitemap": "^3.5.1",
+		"@astrojs/svelte": "^7.1.1",
+		"astro": "^5.13.7",
+		"svelte": "^5.38.10"
 	},
 	"devDependencies": {
-		"@iconify/json": "^2.2.323",
+		"@iconify/json": "^2.2.383",
 		"@modyfi/vite-plugin-yaml": "^1.1.1",
-		"@unocss/astro": "^0.53.6",
-		"@unocss/preset-icons": "^0.53.6",
-		"@unocss/preset-uno": "^0.53.6",
-		"@unocss/reset": "^0.53.6",
-		"minisearch": "^6.3.0",
-		"nanostores": "^0.9.5",
-		"unocss-preset-scrollbar": "^0.2.1"
+		"@unocss/astro": "66.1.0-beta.8",
+		"@unocss/preset-icons": "66.1.0-beta.8",
+		"@unocss/preset-uno": "66.1.0-beta.8",
+		"@unocss/reset": "66.1.0-beta.8",
+		"minisearch": "^7.1.2",
+		"nanostores": "^0.11.4",
+		"unocss-preset-scrollbar": "^3.2.0"
 	}
 }
