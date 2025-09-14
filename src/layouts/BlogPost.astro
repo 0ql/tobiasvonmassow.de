@@ -1,5 +1,5 @@
 ---
-import RightSidebar from "components/RightSidebar.svelte";
+// import RightSidebar from "components/RightSidebar.svelte";
 import Base from "./base.astro";
 
 export interface Props {
@@ -18,7 +18,7 @@ const {
 ---
 
 <Base>
-	<RightSidebar client:load />
+	<!-- <RightSidebar client:load /> -->
 	<article>
 		{heroImage && <img width={720} height={360} src={heroImage} alt="" />}
 		<h1 id="title">{title}</h1>

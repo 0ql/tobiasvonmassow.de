@@ -6,7 +6,7 @@ pubDate: "17 Jun 2022"
 updatedDate: "7 Jul 2022"
 ---
 
-# This is Outdated information 
+> ⚠️ This information is out of date 
 
 ### Set up the project
 

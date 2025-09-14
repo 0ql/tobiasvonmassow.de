@@ -1,0 +1,14 @@
+.i-mdi-car-convertible {
+	animation: convertible 3s ease-in-out 0s infinite;
+}
+
+@keyframes convertible {
+	0%,
+	100% {
+		transform: translateX(-0.5rem);
+	}
+
+	50% {
+		transform: translateX(0.5rem);
+	}
+}
