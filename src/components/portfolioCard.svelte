@@ -7,7 +7,7 @@
 
 <a {href} class="block btn p-6">
 	<span class="flex items-center gap-4">
-		<span class="text-3xl {icon}" />
+		<span class="text-3xl {icon}"></span>
 		<span class="text-xl">{title}</span>
 	</span>
 	<div class="mt-4">{desc}</div>

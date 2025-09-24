@@ -1,13 +1,18 @@
 ---
-const posts = await Astro.glob("../pages/Posts/*.{md, mdx}");
+const posts = await Promise.all<any>(
+  Object.values(
+    import.meta.glob("../pages/Posts/*.{md,mdx}")
+  ).map((p) => p())
+);
 ---
 
-<section class="grid md:grid-cols-2 gap-6">
-	{
-		posts.map((post) => (
-			<a href={post.url} class="block btn p-6">
-				<h3 class="text-xl">{post.frontmatter.title}</h3>
-			</a>
-		))
-	}
+<section class="grid gap-6">
+  {
+    posts.map((post) => (
+      <a href={post.url} class="block btn px-7">
+        <h3 class="text-xl font-normal">{post.frontmatter.title}</h3>
+        <p>{post.frontmatter.pubDate}</p>
+      </a>
+    ))
+  }
 </section>

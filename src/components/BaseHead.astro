@@ -9,6 +9,12 @@ const { title, description } = Astro.props;
 	name="viewport"
 	content="width=device-width,height=device-height,initial-scale=1"
 />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"></noscript>
+
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
 <title>{title}</title>
