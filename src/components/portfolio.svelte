@@ -5,7 +5,7 @@
 </script>
 
 <i
-	class="hidden i-mdi-typewriter i-mdi-car-convertible i-mdi-brain i-mdi-reddit i-mdi-home"
+	class="hidden i-mdi-typewriter i-mdi-car-convertible i-mdi-brain i-mdi-reddit i-mdi-home i-mdi-google-downasaur i-mdi-chart-line i-mdi-dice-multiple i-mdi-shape i-mdi-download i-mdi-magnify i-mdi-horse"
 ></i>
 <section class="grid gap-6">
 	{#each $lang.portfolio as entry}

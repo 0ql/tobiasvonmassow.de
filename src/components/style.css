@@ -12,3 +12,19 @@
 		transform: translateX(0.5rem);
 	}
 }
+
+.i-mdi-google-downasaur {
+	animation: dino-jump 2s ease-in-out 0s infinite;
+}
+
+@keyframes dino-jump {
+	0%,
+	70%,
+	100% {
+		transform: translateY(0);
+	}
+
+	85% {
+		transform: translateY(-0.6rem);
+	}
+}

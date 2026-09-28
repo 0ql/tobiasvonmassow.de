@@ -5,52 +5,103 @@ de:
     na: Diese seite existiert nicht
   selfdesc: Programmierer und Designer von Webseiten, KI und vieles mehr!
   portfolio:
-  - icon: i-mdi-typewriter
-    title: CoffeeTyper
-    href: https://coffeetyper.netlify.app
-    desc: Teste wie schnell du tippen kannst auf einer Webseite, die du nach belieben
-      anpassen kannst.
-  - icon: i-mdi-car-convertible
-    title: AI Hill Climb Racing
-    href: https://0ql.github.io/AI-Hill-Climb-Racing/
-    desc: Eine KI lernt das Spiel 'Hill Climb Racing' zu spielen.
-  - icon: i-mdi-brain
-    title: Pathfinder
-    href: https://0ql.github.io/Pathfinder/
-    desc: KI versucht sich den Weg zwischen zwei Linien zu bahnen.
-  - icon: i-mdi-reddit
-    title: Reddit Clone
-    href: https://github.com/0ql/redditclone
-    desc: Ein clon von reddit.com.
-  - icon: i-mdi-home
-    title: Meine Webseite
-    href: https://tobiasvonmassow.de
-    desc: Meine persönliche Webseite :)
+    - icon: i-mdi-typewriter
+      title: CoffeeTyper
+      href: https://coffeetyper.netlify.app
+      desc: Teste wie schnell du tippen kannst auf einer Webseite, die du nach
+        belieben anpassen kannst.
+    - icon: i-mdi-car-convertible
+      title: AI Hill Climb Racing
+      href: https://0ql.github.io/AI-Hill-Climb-Racing/
+      desc: Eine KI lernt das Spiel 'Hill Climb Racing' zu spielen.
+    - icon: i-mdi-horse
+      title: Kaffee's Dual Ride
+      href: https://modrinth.com/mod/kaffees_dual_ride
+      desc: Minecraft Mod mit ca. 1M downlaods, mit der zwei Spieler auf einem Pferd
+        reiten können.
+    - icon: i-mdi-brain
+      title: Pathfinder
+      href: https://0ql.github.io/Pathfinder/
+      desc: KI versucht sich den Weg zwischen zwei Linien zu bahnen.
+    - icon: i-mdi-google-downasaur
+      title: AI Chrome Dino Game
+      href: https://0ql.github.io/AI-Chrome-Dino-Game/
+      desc: Eine KI lernt das bekannte Chrome Dino Spiel mit NEAT zu spielen.
+    - icon: i-mdi-chart-line
+      title: WSB Technicals
+      href: https://wsbt.netlify.app/
+      desc: Durchsuche den r/wallstreetbets Subreddit mit passenden Aktiencharts.
+    - icon: i-mdi-dice-multiple
+      title: Project Generator
+      href: https://project-generator.netlify.app/
+      desc: Generiere einen zufälligen Tech-Stack für dein nächstes Projekt.
+    - icon: i-mdi-shape
+      title: Pattern Generator
+      href: https://0ql.github.io/pattern-gen/
+      desc: Generator für abstrakte SVG Kunst.
+    - icon: i-mdi-download
+      title: yt-dlp Gui
+      href: https://github.com/0ql/yt-dlp-web
+      desc: Minimale Weboberfläche um deine heruntergeladenen Dateien zu verwalten.
+    - icon: i-mdi-magnify
+      title: google_search.nvim
+      href: https://github.com/0ql/google_search.nvim
+      desc: Neovim Plugin um direkt aus dem Editor bei Google zu suchen.
+    - icon: i-mdi-home
+      title: Meine Webseite
+      href: https://tobiasvonmassow.de
+      desc: Meine persönliche Webseite :)
   more: Sieh dir mehr an...
+
 en:
   overview: Overview
   slug:
     na: This site doesn't exist
   selfdesc: Programmer and designer of websites, AI and much more!
   portfolio:
-  - icon: i-mdi-typewriter
-    title: CoffeeTyper.com
-    href: https://coffeetyper.com
-    desc: Test how fast you can type on an extremely customizable Website.
-  - icon: i-mdi-car-convertible
-    title: AI Hill Climb Racing
-    href: https://0ql.github.io/AI-Hill-Climb-Racing/
-    desc: Ai learns to play a clone of the Game 'Hill Climb Racing'.
-  - icon: i-mdi-brain
-    title: Pathfinder
-    href: https://0ql.github.io/Pathfinder/
-    desc: Agents learning to pathfind using nural evolution.
-  - icon: i-mdi-reddit
-    title: Reddit Clone
-    href: https://github.com/0ql/redditclone
-    desc: A clone of reddit.com.
-  - icon: i-mdi-home
-    title: My Website
-    href: https://tobiasvonmassow.de
-    desc: My personal Homepage :)
+    - icon: i-mdi-typewriter
+      title: CoffeeTyper.com
+      href: https://coffeetyper.com
+      desc: Test how fast you can type on an extremely customizable Website.
+    - icon: i-mdi-car-convertible
+      title: AI Hill Climb Racing
+      href: https://0ql.github.io/AI-Hill-Climb-Racing/
+      desc: Ai learns to play a clone of the Game 'Hill Climb Racing'.
+    - icon: i-mdi-horse
+      title: Kaffee's Dual Ride
+      href: https://github.com/0ql/kaffees_dual_ride
+      desc: Minecraft mod with about 1M downloads that lets two players ride one
+        horse, donkey or mule.
+    - icon: i-mdi-brain
+      title: Pathfinder
+      href: https://0ql.github.io/Pathfinder/
+      desc: Agents learning to pathfind using nural evolution.
+    - icon: i-mdi-google-downasaur
+      title: AI Chrome Dino Game
+      href: https://0ql.github.io/AI-Chrome-Dino-Game/
+      desc: AI learning to play the well known Chrome dino game using NEAT.
+    - icon: i-mdi-chart-line
+      title: WSB Technicals
+      href: https://wsbt.netlify.app/
+      desc: Browse the r/wallstreetbets subreddit alongside stock charts.
+    - icon: i-mdi-dice-multiple
+      title: Project Generator
+      href: https://project-generator.netlify.app/
+      desc: Randomly generate a tech stack for your next project.
+    - icon: i-mdi-shape
+      title: Pattern Generator
+      href: https://0ql.github.io/pattern-gen/
+      desc: Abstract SVG art generator.
+    - icon: i-mdi-download
+      title: yt-dlp Gui
+      href: https://github.com/0ql/yt-dlp-web
+      desc: Minimal web interface to manage your downloaded files.
+    - icon: i-mdi-magnify
+      title: google_search.nvim
+      href: https://github.com/0ql/google_search.nvim
+      desc: Neovim plugin to search Google right from your editor.
+    - icon: i-mdi-home
+      title: My Website
+      href: https://github.com/0ql/tobiasvonmassow.de
+      desc: My personal Homepage :)
   more: Show me more...
