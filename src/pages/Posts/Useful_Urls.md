@@ -1,6 +1,7 @@
 ---
 layout: "../../layouts/BlogPost.astro"
 title: "A growing list of useful URLs"
+description: "A growing collection of useful links for developers: software licenses, free images, fonts, colors, icons and web dev tools."
 ---
 
 ## Legal

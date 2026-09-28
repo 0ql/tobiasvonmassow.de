@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/BlogPost.astro"
 title: "How to create a static blog with SvelteKit, Mdsvex, PrismJS and Unocss"
-description: "How to create a static blog with SvelteKit, Mdsvex, PrismJS and Unocss"
+description: "Step-by-step guide to setting up a static blog with SvelteKit, Mdsvex for Markdown, PrismJS syntax highlighting and UnoCSS styling and icons."
 pubDate: "17 Jun 2022"
 updatedDate: "7 Jul 2022"
 ---

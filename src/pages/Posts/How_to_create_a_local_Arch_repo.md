@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/BlogPost.astro"
 title: "How to create a local Arch Linux repository"
-description: "Lorem ipsum dolor sit amet"
+description: "How to download Arch Linux packages with pacman and serve them from your own local repository using repo-add."
 pubDate: "6. Jun 2022"
 ---
 

@@ -24,14 +24,15 @@ const addToPath = (path: string, name: string): Dir => {
 };
 const dir = addToPath("./src/", "pages");
 
-const { title } = Astro.props;
+const { title, description } = Astro.props;
 ---
 
 <html lang="en" class="dark_classic">
 	<head>
 		<BaseHead
 			title={title ?? "Tobias von Massow"}
-			description="My personal Website."
+			description={description ??
+				"Tobias von Massow – developer portfolio and blog about Linux, Arch, Svelte, web development, finance and investing."}
 		/>
 	</head>
 	<body>

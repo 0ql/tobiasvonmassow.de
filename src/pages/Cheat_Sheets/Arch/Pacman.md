@@ -1,6 +1,7 @@
 ---
 layout: "../../../layouts/BlogPost.astro"
 title: "Pacman"
+description: "Pacman cheat sheet: update Arch Linux, list explicitly installed packages and remove unused orphan packages."
 ---
 
 Update System

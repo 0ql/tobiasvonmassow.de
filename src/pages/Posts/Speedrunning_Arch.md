@@ -1,6 +1,7 @@
 ---
 layout: "../../layouts/BlogPost.astro"
 title: "How to speedrun installing Arch Linux"
+description: "Install Arch Linux as fast as possible: a local package repo, minimal partitioning, pacstrap and prepared arch-chroot commands."
 pubDate: "14 Jun 2022"
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: "../../layouts/BlogPost.astro"
 title: "My take on the AI bubble"
+description: "A timeline of the AI boom from ChatGPT to GPT-5, and why real adoption depends on industry experts rather than early adopters."
 pubDate: "24 Sep 2025"
 ---
 

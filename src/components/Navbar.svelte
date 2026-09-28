@@ -56,7 +56,17 @@
 			title="Github"
 			aria-label="Github"
 			href="https://github.com/0ql"
+			target="_blank"
+			rel="noopener noreferrer"
 			class="text-current text-4xl i-mdi-github hover:transition-duration-0.3s hover:color-[var(--primary)]"
+		></a>
+		<a
+			title="LinkedIn"
+			aria-label="LinkedIn"
+			href="https://www.linkedin.com/in/tobias-v-5aa29933a/"
+			target="_blank"
+			rel="noopener noreferrer"
+			class="text-current text-[2.6rem] i-mdi-linkedin hover:transition-duration-0.3s hover:color-[var(--primary)]"
 		></a>
 		{#if $state.theme === "light_classic"}
 			<button

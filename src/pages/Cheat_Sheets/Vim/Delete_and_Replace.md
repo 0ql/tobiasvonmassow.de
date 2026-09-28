@@ -1,6 +1,7 @@
 ---
 layout: "../../../layouts/BlogPost.astro"
 title: "Delete and / or Replace lines containing a pattern"
+description: "Vim cheat sheet for deleting lines that match or don't match a pattern with :g and :v, including regex and empty-line examples."
 ---
 
 Replace line with `<pattern>`
