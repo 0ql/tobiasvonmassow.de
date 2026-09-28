@@ -37,7 +37,7 @@ const { title, description } = Astro.props;
 	</head>
 	<body>
 		<Navbar client:load />
-		<SideBar {dir} client:load />
+		<SideBar {dir} client:idle />
 		<div
 			class="pt-10vh fixed w-screen h-screen overflow-y-scroll scrollbar scrollbar-rounded scrollbar-thumb-color-current scrollbar-track-color-transparent"
 			style="background: linear-gradient(var(--bg-scnd-color), var(--bg-color));"

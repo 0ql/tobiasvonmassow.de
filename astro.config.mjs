@@ -11,6 +11,9 @@ import ViteYaml from '@modyfi/vite-plugin-yaml'
 // https://astro.build/config
 export default defineConfig({
 	site: "https://tobiasvonmassow.de",
+	build: {
+		inlineStylesheets: "always",
+	},
 	integrations: [mdx(), sitemap(), svelte(), Unocss({
 		presets: [
 			presetUno(),
