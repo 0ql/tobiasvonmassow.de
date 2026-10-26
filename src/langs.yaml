@@ -5,6 +5,11 @@ de:
     na: Diese seite existiert nicht
   selfdesc: Programmierer und Designer von Webseiten, KI und vieles mehr!
   portfolio:
+    - icon: i-mdi-dumbbell
+      title: Jimu
+      href: https://github.com/0ql/jimu
+      desc: Selbst gehostetes, local-first Trainingstagebuch fürs Gym. Schnell zu
+        tippen, funktioniert offline und synchronisiert zwischen deinen Geräten.
     - icon: i-mdi-typewriter
       title: CoffeeTyper
       href: https://coffeetyper.netlify.app
@@ -59,6 +64,11 @@ en:
     na: This site doesn't exist
   selfdesc: Programmer and designer of websites, AI and much more!
   portfolio:
+    - icon: i-mdi-dumbbell
+      title: Jimu
+      href: https://github.com/0ql/jimu
+      desc: A self-hosted, local-first workout log for the gym. Fast to type into,
+        works offline and syncs between your devices.
     - icon: i-mdi-typewriter
       title: CoffeeTyper.com
       href: https://coffeetyper.com
